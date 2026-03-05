@@ -4,7 +4,7 @@
 
 This project uses a React frontend with a JSON Server backend. The client runs on port 3002 and proxies API requests to the server on port 3001.
 
-**Base URL (Client):** `http://localhost:3002/api`  
+**Base URL (Client):** `http://localhost:3002/`  
 **Base URL (Server):** `http://localhost:3001`
 
 > Note: The client automatically proxies `/api/*` requests to the server, so you can use `/api/users` and `/api/posts` from the frontend.
