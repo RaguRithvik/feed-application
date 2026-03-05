@@ -1,0 +1,45 @@
+# Dependencies (applies to both client/ and server/)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables (protects sensitive data)
+.env
+.env.local
+.env.production
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Server specific (optional - uncomment if needed)
+# server/data/*.json
+# !server/data/.gitkeep
